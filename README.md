@@ -1,20 +1,19 @@
 # readmetoo
+
+## Description
 ReadMeToo is a readme generator application running in node.js. This is a CLI application, which will prompt the users for various parts of a readme file and then build that readme based on the supplied input.
 
 **NPM Packages Used** : [inquirer](https://www.npmjs.com/package/inquirer)
 
-## What does a generated ReadMe.MD contain?
-* Title of Project
+### What does a generated ReadMe.MD contain?
+* App name
 * Description
-* Table of Contents
-* Installation
-* Usage
-* License
-* Contributing
-* Tests
-* Questions
+* Installation Instructions
+* Usage Instructions
+* Contributing Information
+* Testing Information
 
-## How to use this app
+## Installation Instructions
 **Clone the repo**
 ```
   $ git clone https://github.com/cpusillo/readmetoo.git
@@ -23,7 +22,10 @@ ReadMeToo is a readme generator application running in node.js. This is a CLI ap
 ```
 $ npm install
 ```
+
+## Usage Instructions
 **Run the application**
 ```
 $ node index.js
 ```
+Your generated README.md file is put into the /generated-file directory.
