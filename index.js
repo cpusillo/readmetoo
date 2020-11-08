@@ -55,7 +55,17 @@ async function getUserInput() {
                     "Mozilla Public License 2.0",
                     "The Unlicense"
                 ]
-            }
+            },
+            {
+                type: "input",
+                message: "Enter your email address: ",
+                name: 'email',
+            },
+            {
+                type: "input",
+                message: "Enter your github username: ",
+                name: 'github',
+            },
         ]);
         return data;
     } catch (error) {
@@ -73,7 +83,9 @@ async function writeReadMe() {
         usage,
         contribution,
         test,
-        licenses
+        licenses,
+        email,
+        github
     } = await getUserInput();
 
 
@@ -83,22 +95,35 @@ async function writeReadMe() {
    # ${name}
 
    ## License
-   ${lic}
+   ${lic} | This app is licensed under ${licenses}
+
+   ## Table of Contents
+   - [Licensing Information](#License)
+   - [Description](#Description)
+   - [Usage](#Usage)
+   - [Contribution](#Contribution)
+   - [Tests](#Tests)
+   - [Questions](#Questions)
    
    ## Description
    ${description}
 
-   ## Installation Instructions
+   ## Installation
    ${installation}
 
-   ## Usage Instructions
+   ## Usage
    ${usage}
 
-   ## Contribution Instructions
+   ## Contribution
    ${contribution}
 
-   ## Testing Instructions
+   ## Tests
    ${test}
+
+   ## Questions
+   [Shoot me an email](mailto:${email})
+
+   [Visit my Github profile](https://github.com/${github})
    `
 
 

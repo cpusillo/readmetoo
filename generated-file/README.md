@@ -1,40 +1,34 @@
 
-   # Test application
-   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-   
+   # Test app
+
+   ## License
+   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) | This app is licensed under MIT License
+
    ## Table of Contents
+   - [Licensing Information](#License)
    - [Description](#Description)
-   - [Installation](#Installation)
-   - [Usage](#Usage)
-   - [Contribution](#Contribution)
-   - [Tests](#Tests)
-   - [Questions](#Questions) 
-   - [License](#License)
-   - [Description](#Description)
-   - [Installation](#Installation)
    - [Usage](#Usage)
    - [Contribution](#Contribution)
    - [Tests](#Tests)
    - [Questions](#Questions)
    
    ## Description
-   This is a test description
+   This is the best description.
 
    ## Installation
-   You should run it in node
+   Simply run npm install to pull in the necessary packages.
 
    ## Usage
-   Run in node
+   Run node index.js
 
    ## Contribution
-   Don't
+   Please don't
 
    ## Tests
-   Run in node
+   Run the app to test it
 
    ## Questions
-   [Send me an email](mailto:corrine.bootcamp.forward@gmail.com)
+   [Shoot me an email](mailto:cpusillo@gmail.com)
 
-   [Link to my Github](https://github.com/cpusillo)
-
+   [Visit my Github profile](https://github.com/cpusillo)
    
