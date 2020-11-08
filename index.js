@@ -77,8 +77,7 @@ async function writeReadMe() {
     } = await getUserInput();
 
 
-     const lic = lics.getLicense(licenses);
-     console.log(lic);
+    const lic = lics.getLicense(licenses);
     const myHTML =
         `
    # ${name}

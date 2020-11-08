@@ -1,21 +1,21 @@
 
-   # apple
+   # ReadMe-Generator
 
    ## License
-   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
    
    ## Description
-   apples are good
+   A CLI application used to build and format a readme file using markup.
 
    ## Installation Instructions
-   download 
+   Download the repository and run 'npm install' to pull in the necessary packages.
 
    ## Usage Instructions
-   use
+   Run 'node index.js' to launch the inquirer prompts.
 
    ## Contribution Instructions
-   Don't touch my code!
+   I am not accepting contributions at this time.
 
    ## Testing Instructions
-   Run node index.js
+   Run index.js to test the application.
    
