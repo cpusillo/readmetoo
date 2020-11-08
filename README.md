@@ -52,7 +52,7 @@ $ node index.js
 ```
 
 ## Walkthrough of application & supporting images
-![Screenshot](https://github.com/cpusillo/readmetoo/blob/main/img/readmetoo-screenshot.jpg)
+![Screenshot](https://github.com/cpusillo/readmetoo/blob/main/img/readmetoo-screenshot1.jpg)
 
 
 
