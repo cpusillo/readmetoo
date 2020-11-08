@@ -6,8 +6,9 @@ ReadMeToo is a readme generator application running in node.js. This is a CLI ap
 
 **NPM Packages Used** : [inquirer](https://www.npmjs.com/package/inquirer)
 
-- [Table of Contents](#Description)
-  * [Description](#sub-heading)
+## Table-of-Contents
+- [Table of Contents](#Table-of-Contents)
+  * [Description](#Description)
     + [Sub-sub-heading](#sub-sub-heading)
 - [Heading](#heading-1)
   * [Sub-heading](#sub-heading-1)
@@ -27,7 +28,7 @@ ReadMeToo is a readme generator application running in node.js. This is a CLI ap
 * Tests
 * Questions
 
-## Installation Instructions
+## Installation
 **Clone the repo**
 ```
   $ git clone https://github.com/cpusillo/readmetoo.git
@@ -37,13 +38,13 @@ ReadMeToo is a readme generator application running in node.js. This is a CLI ap
 $ npm install
 ```
 
-## Usage Instructions
+## Usage
 **Run the application**
 ```
 $ node index.js
 ```
 
-## How to Contribute
+## Contribution
 * Download the repository using the installation instructions above
 * Contributors may not push to the main branch, create your own branch and perform a pull request.
 * Pull request should outline main changes made and should not deconstruct the basic logic.
