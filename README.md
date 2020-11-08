@@ -5,6 +5,7 @@ ReadMeToo is a readme generator application running in node.js. This is a CLI ap
 
 ## What does a generated ReadMe.MD contain?
 * Title of Project
+* License
 * Description
 * Table of Contents
 * Installation
