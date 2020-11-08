@@ -6,6 +6,16 @@ ReadMeToo is a readme generator application running in node.js. This is a CLI ap
 
 **NPM Packages Used** : [inquirer](https://www.npmjs.com/package/inquirer)
 
+- [Table of Contents](#Description)
+  * [Description](#sub-heading)
+    + [Sub-sub-heading](#sub-sub-heading)
+- [Heading](#heading-1)
+  * [Sub-heading](#sub-heading-1)
+    + [Sub-sub-heading](#sub-sub-heading-1)
+- [Heading](#heading-2)
+  * [Sub-heading](#sub-heading-2)
+    + [Sub-sub-heading](#sub-sub-heading-2)
+
 **What does a generated ReadMe.MD contain?**
 * Title of Project
 * License
@@ -53,3 +63,7 @@ $ node index.js
 
 ## Walkthrough of application & supporting images
 ![Screenshot](https://github.com/cpusillo/readmetoo/blob/main/assets/img/readmetoo-screenshot.jpg)
+
+
+
+
