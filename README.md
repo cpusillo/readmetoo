@@ -52,6 +52,7 @@ $ node index.js
 ```
 
 ## Walkthrough of application & supporting images
+[Video walk through of application](https://drive.google.com/file/d/1a5JjfBh9e4hpvC8wYJIXNi_efZ4d9Gf5/view?usp=sharing)
 ![Screenshot](https://github.com/cpusillo/readmetoo/blob/main/img/readmetoo-screenshot1.jpg)
 
 
