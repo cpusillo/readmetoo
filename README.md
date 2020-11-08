@@ -50,3 +50,6 @@ To test the application in general
 ```
 $ node index.js
 ```
+
+## Walkthrough of application & supporting images
+![Screenshot](https://github.com/cpusillo/readmetoo/blob/main/assets/img/readmetoo-screenshot.jpg)
