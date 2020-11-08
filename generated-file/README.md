@@ -1,5 +1,5 @@
 
-   # Test app
+   # Test application
 
    ## License
    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) | This app is licensed under MIT License
@@ -13,19 +13,19 @@
    - [Questions](#Questions)
    
    ## Description
-   This is the best description.
+   This is an app that does test.
 
    ## Installation
-   Simply run npm install to pull in the necessary packages.
+   Simply clone the repo and run `npm install`
 
    ## Usage
-   Run node index.js
+   Just run it using `node index.js`
 
    ## Contribution
-   Please don't
+   Don't contribute.
 
    ## Tests
-   Run the app to test it
+   See usage instructions
 
    ## Questions
    [Shoot me an email](mailto:cpusillo@gmail.com)
