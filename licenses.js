@@ -1,3 +1,10 @@
+/*
+    licenses.js exports function getLicense().
+    getLicense() accepts one argument, license, supplied by index.js's
+    inquirer prompts. The user selects a license type and getLicense()
+    supplies the "badge" for it.
+*/
+
 function getLicense (license) {
     switch (license) 
      {
@@ -35,6 +42,7 @@ function getLicense (license) {
      }
  }
 
+ // Export our getLicense function for use by index.js
 module.exports = {
     getLicense
 };

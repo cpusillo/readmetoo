@@ -1,3 +1,4 @@
+// Import our application dependencies
 const inquirer = require("inquirer");
 const fs = require("fs");
 const lics = require("./licenses");
@@ -7,7 +8,7 @@ const lics = require("./licenses");
     usage information, contribution guidelines, and test instructions for the README file.
 */
 async function getUserInput() {
-
+    // Try to load the inquirer prompts to get our user's input.
     try {
         const data = await inquirer.prompt([{
                 type: "input",
@@ -73,9 +74,13 @@ async function getUserInput() {
     }
 } // end of getUserInput()
 
+/*
+    writeReadMe() returns the finalized product, a readme.md file
+    based on the supplied answers from getUserInput().
+*/
 async function writeReadMe() {
 
-    // Destructure answers here 
+    // Deconstruct our object for easier use.
     const {
         name,
         description,
@@ -88,9 +93,11 @@ async function writeReadMe() {
         github
     } = await getUserInput();
 
-
+    // Get our license images from the licenses.js file.
     const lic = lics.getLicense(licenses);
-    const myHTML =
+
+    // Write our markdown file contents.
+    const myMarkdown =
         `
    # ${name}
 
@@ -126,9 +133,10 @@ async function writeReadMe() {
    [Visit my Github profile](https://github.com/${github})
    `
 
-
-    fs.writeFile("./generated-file/README.md", myHTML, (err) =>
+    // Take the myMarkdown variable and print it to a file
+    fs.writeFile("./generated-file/README.md", myMarkdown, (err) =>
         err ? console.log(err) : console.log("ReadMe.md created successfully!")
     );
 }
+
 writeReadMe();

@@ -1,5 +1,5 @@
 
-   # Test application
+   # Cool-readme-generator
 
    ## License
    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) | This app is licensed under MIT License
@@ -13,22 +13,22 @@
    - [Questions](#Questions)
    
    ## Description
-   This is an app that does test.
+   An application that generates a readme based on user input.
 
    ## Installation
-   Simply clone the repo and run `npm install`
+   Clone the git repo, run `npm install` 
 
    ## Usage
-   Just run it using `node index.js`
+   Run the application in node, `node index.js`
 
    ## Contribution
-   Don't contribute.
+   Please do not contribute to this project yet.
 
    ## Tests
-   See usage instructions
+   Run the application in node and review any errors.
 
    ## Questions
-   [Shoot me an email](mailto:cpusillo@gmail.com)
+   [Shoot me an email](mailto:test@gmail.com)
 
    [Visit my Github profile](https://github.com/cpusillo)
    
